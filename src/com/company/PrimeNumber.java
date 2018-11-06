@@ -7,7 +7,7 @@ public class PrimeNumber {
         for (int i = 2; i < 50; i++) {
             boolean flag=true;
             for (int n = 2; n <i; n++) {
-                if (i % n == 0) {
+                        if (i % n == 0) {
                     count++;
                      flag=false;
 

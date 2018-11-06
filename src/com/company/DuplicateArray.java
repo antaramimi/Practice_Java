@@ -1,31 +1,27 @@
 package com.company;
 
-import java.util.Scanner;
+import java.lang.reflect.Array;
+
+import static java.lang.reflect.Array.*;
 
 public class DuplicateArray {
-    private static boolean checkDuplicateArray(int[] arr) {
+
+    public static void main(String[] args) {
+
+        int[] a = {1,5,6,7};
 
 
-        int[] a = new int[5];
+        for (int i = 0; i < a.length-1 ; i++) {
 
-
-        for (int i = 0; i < a.length; i++) {
-            for (int j = i+1; j < a.length; j++) {
-                if (a[i] == a[j])
-                    return true;
+             { for(int j=i+1;j<a.length;j++)
+                if (a[i] == a[j]) {
+                    System.out.println("result is " + a[j]);
                 }
 
-            }
+             }
 
-            return false;
         }
 
 
-    public static void main(String[] args) {
-         int[] a={3,3,5,5,8};
-        checkDuplicateArray(a);
-
     }
-
-
 }

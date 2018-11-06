@@ -6,7 +6,7 @@ public class ReverseNumber {
 
 
     public static void ReverseNumberUserInput(){
-        int num=0;
+        int num;
         int rev=0;
 
         Scanner s =new Scanner(System.in);

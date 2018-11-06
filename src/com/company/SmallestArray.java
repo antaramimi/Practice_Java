@@ -17,7 +17,8 @@ public class SmallestArray {
     }
     public static void checkwhileuserinput() {
         Scanner s = new Scanner(System.in);
-        System.out.println("Enter the num from 1 to 6");
+
+
         int[] input = new int[6];
         for (int i = 0; i < 6; i++) {
             input[i] = s.nextInt();
